@@ -4,13 +4,13 @@ import { Component } from 'vue-property-decorator'
 
 @Component
 export default class TypeScript extends Vue {
-  msg: string = 'TypeScript and tsx!'
+  msg: string = 'Hello TypeScript and tsx!'
 
   render() {
     return (
-      <h2>
+      <h1>
         {this.msg}
-      </h2>
+      </h1>
     )
   }
 }

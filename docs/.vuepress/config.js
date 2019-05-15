@@ -1,6 +1,5 @@
 module.exports = {
   title: 'Vuepress & TypeScript',
-  description: 'We can use TypeScript in Vuepress now...',
   configureWebpack: {
     resolve: {
       extensions: ['.ts', '.tsx'],

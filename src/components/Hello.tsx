@@ -3,7 +3,7 @@ import { Component, Watch } from 'vue-property-decorator'
 
 @Component
 export default class Hello extends Vue {
-  private text = 'Hello Vuepress'
+  private text = 'Hello Vuepress!'
 
   private render(): VNode {
     return (
